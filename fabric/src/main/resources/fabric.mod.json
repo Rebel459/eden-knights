@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "eden_knights",
+  "version": "${version}",
+  "name": "Eden Knights",
+  "description": "Core mod of the Eden modpack",
+  "authors": [
+    "sad",
+    "Rebel459"
+  ],
+  "license": "All Rights Reserved",
+  "icon": "assets/eden_knights/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.eden.eden_knights.fabric.EdenKnightsFabric"
+    ],
+    "client": [
+      "net.eden.eden_knights.fabric.client.EdenKnightsFabricClient"
+    ]
+  },
+  "mixins": [
+    "eden_knights.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "architectury": ">=9.2.14",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

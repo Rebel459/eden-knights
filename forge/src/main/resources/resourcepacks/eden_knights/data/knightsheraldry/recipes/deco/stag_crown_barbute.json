@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "knightsheraldry:barbute"
+    },
+    {
+      "item": "knightsheraldry:stag"
+    },
+    {
+      "tag": "eden_knights:crowns"
+    }
+  ],
+  "result": {
+    "item": "knightsheraldry:barbute"
+  }
+}

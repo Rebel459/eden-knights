@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "net.eden.eden_knights.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+    "client.ClientTextTooltipMixin",
+    "client.GuiGraphicsMixin",
+    "client.SCAccessoryItemRendererMixin"
+  ],
+  "mixins": [
+    "entity.ArmorStandMixin",
+    "entity.LivingEntityMixin",
+    "inventory.AbstractContainerMenuMixin",
+    "item.EnchantmentMixin",
+    "item.ItemMixin",
+    "item.ItemStackMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

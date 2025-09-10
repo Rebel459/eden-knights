@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "knightsheraldry:viking_helm"
+    },
+    {
+      "tag": "eden_knights:crowns"
+    }
+  ],
+  "result": {
+    "item": "knightsheraldry:viking_helm"
+  }
+}

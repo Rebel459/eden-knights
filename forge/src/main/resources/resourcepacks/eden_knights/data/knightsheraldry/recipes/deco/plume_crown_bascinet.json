@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "knightsheraldry:bascinet"
+    },
+    {
+      "item": "knightsheraldry:plume"
+    },
+    {
+      "tag": "eden_knights:crowns"
+    }
+  ],
+  "result": {
+    "item": "knightsheraldry:bascinet"
+  }
+}
