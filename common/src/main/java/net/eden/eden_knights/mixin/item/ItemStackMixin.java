@@ -2,7 +2,7 @@ package net.eden.eden_knights.mixin.item;
 
 import banduty.stoneycore.items.SCItems;
 import net.eden.eden_knights.lib.ItemStackHelper;
-import net.eden.eden_knights.registry.EKItemTags;
+import net.eden.eden_knights.tag.EKItemTags;
 import net.eden.eden_knights.registry.EKItems;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;

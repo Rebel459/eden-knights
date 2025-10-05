@@ -39,11 +39,13 @@ replay_*.log
 *.hprof
 *.jfr
 
-# run
+# lib
 
-lib/
 common/lib/
 fabric/lib/
-fabric/run/
 forge/lib/
+
+# run
+
+fabric/run/
 forge/run/

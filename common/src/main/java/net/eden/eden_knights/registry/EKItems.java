@@ -7,6 +7,8 @@ import net.eden.eden_knights.EdenKnights;
 import net.eden.eden_knights.item.EKItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.*;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.ItemLike;
 
 import java.util.function.Supplier;
 
@@ -18,9 +20,10 @@ public final class EKItems {
             "crown",
             () ->  new EKItem(
                     new Item.Properties()
-                            .durability(256)
-                    , false
-            ));
+                            .durability(256),
+                    false,
+                    Ingredient.of(Items.GOLD_INGOT))
+            );
 
     public static void init() {
         ITEMS.register();

@@ -88,8 +88,8 @@ subprojects {
         // Fabric API. This is technically optional, but you probably want it anyway.
         modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 
-        modImplementation ("net.eden.eden_knights:KnightsHeraldry-0.6.0")
-        modImplementation ("net.eden.eden_knights:stoneycore-0.5.2")
+        modImplementation ("net.eden.eden_knights:KnightsHeraldry-0.7.0")
+        modImplementation ("net.eden.eden_knights:stoneycore-0.6.0")
 
         modImplementation "io.wispforest:owo-lib:${project.owo_version}"
         annotationProcessor "io.wispforest:owo-lib:${project.owo_version}"

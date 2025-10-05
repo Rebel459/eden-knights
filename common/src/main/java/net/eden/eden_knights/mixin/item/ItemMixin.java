@@ -1,7 +1,7 @@
 package net.eden.eden_knights.mixin.item;
 
 import net.eden.eden_knights.EdenKnights;
-import net.eden.eden_knights.registry.EKItemTags;
+import net.eden.eden_knights.tag.EKItemTags;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;

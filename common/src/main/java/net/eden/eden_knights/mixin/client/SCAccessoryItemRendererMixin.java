@@ -3,7 +3,7 @@ package net.eden.eden_knights.mixin.client;
 import banduty.stoneycore.client.SCAccessoryItemRenderer;
 import com.mojang.blaze3d.vertex.PoseStack;
 import io.wispforest.accessories.api.slot.SlotReference;
-import net.eden.eden_knights.registry.EKItemTags;
+import net.eden.eden_knights.tag.EKItemTags;
 import net.eden.eden_knights.registry.EKItems;
 import net.minecraft.client.model.EntityModel;
 import net.minecraft.client.renderer.MultiBufferSource;

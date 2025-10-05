@@ -1,6 +1,6 @@
 package net.eden.eden_knights.mixin.item;
 
-import net.eden.eden_knights.registry.EKItemTags;
+import net.eden.eden_knights.tag.EKItemTags;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentCategory;

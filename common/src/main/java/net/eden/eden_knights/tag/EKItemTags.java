@@ -1,4 +1,4 @@
-package net.eden.eden_knights.registry;
+package net.eden.eden_knights.tag;
 
 import net.eden.eden_knights.EdenKnights;
 import net.minecraft.core.registries.Registries;
